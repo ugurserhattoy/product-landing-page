@@ -22,8 +22,8 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <li class="nav1"><a class="nav-link" href="">Advantages</a></li>
-                <li class="nav2"><a class="nav-link" href="">How to Use</a></li>
+                <li class="nav1"><a class="nav-link" href="#advantages">Advantages</a></li>
+                <li class="nav2"><a class="nav-link" href="#how-to-use">How to Use</a></li>
                 <li class="nav3"><a class="nav-link" href="">Price Options</a></li>
             </ul>
         </nav>
@@ -34,8 +34,7 @@
             action="https://www.freecodecamp.com/email-submit">
             <div>
                 <label>
-                    Firstly, you may<br>
-                    submit your email for further information:<br>
+                    Do you want to submit your email for further information and updates?<br>
                     <input id="email" type="email" placeholder="Your Email">
                 </label>
             </div>
@@ -43,18 +42,51 @@
                 <button type="submit" id="submit">Submit</button>
             </div>
         </form>
-        <div class="outer">
-            <div class="video-area">
-                <span>Simple tutorial video:</span><br> 
-                <iframe 
-                    id="video" height="360px"
-                    src="https://www.youtube.com/embed/6Stm5ZhhjaU" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+        <section id="advantages">
+            <div class="advantage-element">
+                <img class="icon" src="https://img.icons8.com/dotty/80/000000/time.png" alt="time icon">
+                <div class="description">
+                    <span>
+                        <strong>Time</strong> is the most important notion nowadays. 
+                        You might not wanna waste it; all materials are collected in a package for you.
+                    </span>    
+                </div>
             </div>
-        </div>
+            <div class="advantage-element">
+                <img class="icon" src="https://img.icons8.com/dotty/80/000000/money-bag.png" alt="money icon">
+                <div class="description">
+                    <span>
+                        <strong>Money</strong> you payed will be less than buying 
+                        the random pieces one by one from the market. You may throw your coins into the piggy bank.
+                    </span>
+                </div>
+            </div>
+            <div class="advantage-element">
+                <img class="icon" src="https://img.icons8.com/dotty/80/000000/good-quality.png" alt="quality icon">
+                <div class="description">
+                    <span>
+                        <strong>Quality</strong> of the components has high standards.
+                        Random items might not meet your expectations. Now you don't have to worry about it.
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="how-to-use">
+            <div>
+                How to make a grass head?
+            </div>
+            <div class="outer">
+                <div class="video-area">
+                    <iframe 
+                        id="video" height="360px"
+                        src="https://www.youtube.com/embed/6Stm5ZhhjaU" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
     </main>
     <footer id="footer">
 
