@@ -185,7 +185,7 @@ input {
     font-size: inherit;
 }
 
-button {
+.button {
     text-transform: uppercase;
     width: 200px;
     background-color: #055c05;
@@ -197,7 +197,7 @@ button {
     font-family: inherit;
     font-size: inherit;
 }
-button:hover {
+.button:hover {
     background-color: var(--text-color);
 }
 
