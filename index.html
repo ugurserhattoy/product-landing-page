@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <title>Friend Grass Head</title>
 </head>
-<body>
+<body class="container">
     <header id="header">
         <div id="title-area">
             <h1 id="title">
@@ -29,16 +29,32 @@
         </nav>
     </header>
     <main id="main">
-        <form action="https://www.freecodecamp.com/email-submit">
+        <form 
+            id="form"
+            action="https://www.freecodecamp.com/email-submit">
             <div>
                 <label>
-                    Submit your email for further information
+                    Firstly, you may<br>
+                    submit your email for further information:<br>
                     <input id="email" type="email" placeholder="Your Email">
                 </label>
             </div>
-            <button type="submit" id="submit">Submit</button>
+            <div class="submit-area">
+                <button type="submit" id="submit">Submit</button>
+            </div>
         </form>
-        <video id="video" src=""></video>
+        <div class="outer">
+            <div class="video-area">
+                <span>Simple tutorial video:</span><br> 
+                <iframe 
+                    id="video" height="360px"
+                    src="https://www.youtube.com/embed/6Stm5ZhhjaU" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
     </main>
     <footer id="footer">
 
