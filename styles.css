@@ -1,5 +1,6 @@
 :root {
     --text-color: #003e00;
+    --header-bg-color: #eeeeee;
 }
 
 * {
@@ -23,7 +24,7 @@ header {
     margin: auto;
     width: 100%;
     position: fixed;
-    background-color: #eeeeee;
+    background-color: var(--header-bg-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -159,8 +160,7 @@ main {
     max-width: 800px;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto;  
     font-size: 1.3rem;
 }
 /*email submit form area*/
@@ -168,6 +168,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 #email {
@@ -207,6 +209,7 @@ button:hover {
     max-width: 560px;
     width: 100%;
     padding: 50px 10px;
+    padding-top: 100px;
     margin: auto;
 }
 
@@ -235,6 +238,8 @@ button:hover {
 /*responsive video area*/
 #how-to-use {
     padding: 50px 0px;
+    text-align: center;
+    padding-top: 100px;
 }
 .outer {
     width: 100%;
@@ -259,4 +264,86 @@ button:hover {
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+/*price options area*/
+#price-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0px;
+    padding-top: 100px;
+}
+
+.price-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid var(--text-color);
+    font-size: 1.1rem;
+    padding-top: 0px;
+}
+
+.package-head {
+    padding: 0;
+    margin: 0;
+    background-color: var(--header-bg-color);
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.buy-butt-area {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.buy-button {
+    width: 60%;
+}
+
+.note {
+    font-size: 1rem;
+    font-style: oblique;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/*footer area*/
+#footer {
+    padding: 20px;
+    background-color: var(--header-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: end;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-nav > a {
+    font-weight: 550;
+    padding-right: 20px;
+}
+
+.footer-link {
+    font-size: 0.8rem;
+    padding: 10px 0;
+    padding-right: 20px;
+}
+
+.footer-copy {
+    padding-right: 20px;
 }
